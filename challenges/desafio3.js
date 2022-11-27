@@ -1,0 +1,2 @@
+db.produtos.find({}, { nome: 1, vendidos: 1, _id: 0 }).sort({ vendidos: -1 }).limit(1);
+// Procura por todos os documentos, exibindo apenas o 'nome' e 'vendidos' e escondendo o '_id', organiza por ordem decrescente (o maior primeiro) e limita a pesquisa a apenas 1 resultado, mostrando assim somente o primeiro e mais vendido.
