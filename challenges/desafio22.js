@@ -32,4 +32,4 @@ db.produtos.find(
   },
 );
 
-// Cria o campo 'vendasPorDia' e atribui a ele um array de 7 posições representando os 7 dias da semana. Depois atribui certos valores a sanduíches específicos e em dias específicos e por fim retorna os nomes e valores de 'vendasPorDia'.
+// Cria o campo 'vendasPorDia' e o atribui um array de 7 posições representando os 7 dias da semana. Depois atribui certos valores a sanduíches específicos e em dias específicos e por fim retorna os nomes e valores de 'vendasPorDia'.
